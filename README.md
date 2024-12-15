@@ -43,7 +43,7 @@ MyBlogApp is a simple and user-friendly blogging platform that allows users to c
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MyBlogApp.git
+   git clone https://github.com/AhmedButtar7/myblogapp.git
    ```
 
 2. Open the project in Android Studio.
