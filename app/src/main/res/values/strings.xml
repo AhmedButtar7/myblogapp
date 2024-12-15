@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyBlogApp</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="description_hint">Description</string>
+    <string name="title_hint">Title</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="save">Save</string>
+    <string name="error_nsfw">Error: NSFW content detected!</string>
+    <string name="create_blog">Create Blog</string>
+    <string name="my_blogs">My Blogs</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="todo">TODO</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="userEmail">SWEN221101019@kfueit.edu.pk</string>
+    <string name="UserName">Ahmed Jutt</string>
+</resources>

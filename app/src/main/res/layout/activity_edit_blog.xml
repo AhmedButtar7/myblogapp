@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditBlogActivity"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/blogTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blog Title"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/blogDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blog Description"
+        android:layout_below="@id/blogTitleEditText"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/blogContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blog Content"
+        android:layout_below="@id/blogDescriptionEditText"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_below="@id/blogContentEditText"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/blogImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/selectImageButton"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/updateBlogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Blog"
+        android:layout_below="@id/blogImageView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

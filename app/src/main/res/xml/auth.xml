@@ -1,0 +1,3 @@
+<resources>
+    <string name="appAuthRedirectScheme">com.example.myblogapp</string>
+</resources>
